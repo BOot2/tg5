@@ -231,7 +231,7 @@ ${prefix}join ⇏ لدخول البوت الروم
 
 
 client.on('message', function(message) {
-	const myID = "456626501182291978";
+	const myID = "307630049656438788";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
@@ -289,7 +289,7 @@ client.on('message', function(message) {
 
 client.on('message', async message => {
             if(!message.channel.guild) return;
-             if (message.content.startsWith("aphrodite")) {
+             if (message.content.startsWith("Tg")) {
 let args = message.content.split(' ').slice(1).join(' ');
             let sigMessage = await args;
             
